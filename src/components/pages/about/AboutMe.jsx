@@ -26,25 +26,25 @@ const AboutMe = () => {
 
 
           <div className="about">
-            
+
             <h1 className="pt-5 text-center pb-2">About Me</h1>
-            <hr/>
+            <hr />
             <Container className="container-box rounded">
-              <Fade left  opposite duration={500}>
-              <Row className='justify-content-between my-3'>
-                  <Col xs={12} md={6} className=" ps-0">
+              <Fade left opposite duration={500}>
+                <Row className='justify-content-between my-3'>
+                  <Col xs={12} md={6} className="img-box">
                     <Row className="justify-content-center ">
-                      <Image src={Profile} className="profile" alt="Profile_Photo" rounded fluid />
+                      <Image src={Profile} className="profile" alt="Profile_Photo" fluid />
                     </Row>
-                    
+
                   </Col>
                   <Col xs={12} md={6} className="descriptions">
                     <Row className="">
-                      <p className="p-5">I am a Junior UI Designer with a web development background and 7 years of experience in teaching IT in school, I discovered UX/UI during my first web developer internship; my curiosity for UI design made me decide to change my career. </p>
+                      <p className="p-4">I am a Junior UI Designer with a web development background and 7 years of experience in teaching IT in school, I discovered UX/UI during my first web developer internship; my curiosity for UI design made me decide to change my career. </p>
                     </Row>
                     {/* BUttons */}
                     <Row >
-                      <Col className="d-flex justify-content-center flex-wrap">
+                      <Col className="d-flex justify-content-center flex-wrap mb-5">
                         <div>
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
@@ -70,14 +70,14 @@ const AboutMe = () => {
                   </Col>
 
                 </Row>
-                <Row>
-                <Col xs={12} md={12} className="descriptions p-5 mb-5">
-                    <Row className='justify-content-between mx-1'>
-                      <Col xs={12} md={6}>
+                <Row className="mb-5">
+                  <Col xs={12} md={12} className="descriptions">
+                    <Row className="justify-content-between mx-1 pt-5 pb-4">
+                      <Col xs={12} md={6} >
                         <Row >
-                          <p>🤓 My Career Change
+                          <p> 🤓 My Career Change
                             Full-stack web developer at Konexio, Paris.  During the internship, I got an opportunity to worked on an Individual project from scratch then I discovered  UX/UI Design, and since then it was an eye-opening experience and made me realize that I wanted to improve my skills in this field.
-                          </p>
+                          </p >
                           <p>So I decided to attend IRONHACK UX/UI Design Bootcamp and  I led 5 projects following the Design Thinking approach during the Bootcamp</p>
                           <p>Thanks to this, I can understand the complete front-end process and remain efficient for the design and tech team as well.</p>
                         </Row>
@@ -92,12 +92,12 @@ const AboutMe = () => {
                         </Row>
                       </Col>
                     </Row>
-                    <Row  className='mx-1'>
+                    <Row className='mx-1'>
                       <p>I want to continue to implement my creativity in the service of a benevolent team that can in exchange allow me to progress and grow in the world of tech and design.</p>
-                      
+
                     </Row>
-                    <Row  className='mx-1'>
-                    <p>I'm always looking to grow my personal and professional network. Feel free to connect via LinkedIn or contact me directly by e-mail</p>
+                    <Row className='mx-1'>
+                      <p>I'm always looking to grow my personal and professional network. Feel free to connect via LinkedIn or contact me directly by e-mail</p>
                     </Row>
                   </Col>
                 </Row>
