@@ -13,6 +13,6 @@ export const MenuList = [
     },
     {
         title:"Contact Me",
-        url:"/ContactMe"
+        url:"/contact_me"
     },
 ]

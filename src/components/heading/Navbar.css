@@ -3,9 +3,11 @@ nav {
     justify-content: space-between;
     padding: 20px 5%;
     background-color: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    position:sticky !important;
+    color: #fff; 
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     z-index: 99;
+    width: 100%;
 }
 .logo-link{
     text-decoration: none;

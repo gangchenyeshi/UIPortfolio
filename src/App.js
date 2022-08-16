@@ -8,7 +8,7 @@ import MyNavbar from "./components/heading/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./components/pages/home/Home";
 import Works from "./components/pages/works/Works";
-import About from "./components/pages/about/AboutMe";
+import AboutMe from "./components/pages/about/AboutMe";
 import ContactMe from "./components/pages/contact/ContactMe";
 import ECommerce from "./components/pages/works/ecommerce/Ecommerce";
 import Otizi from "./components/pages/works/otizi/Otizi";
@@ -21,12 +21,12 @@ function App() {
         <MyNavbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about_me" element={<About />} />
+          <Route path="/about_me" element={<AboutMe />} />
           <Route path="/works" element={<Works />} />
             <Route exact path="/works/e-commerce_bottega" element={<ECommerce/>} />
             <Route exact path="/works/otizi" element={<Otizi/>} />
             <Route exact path="/works/diet_n_nutrition" element={<DietNutrition/>} />
-            <Route exact path="/ContactMe" element={<ContactMe/>}/>
+            <Route exact path="/contact_me" element={<ContactMe/>}/>
 
           
         </Routes>
