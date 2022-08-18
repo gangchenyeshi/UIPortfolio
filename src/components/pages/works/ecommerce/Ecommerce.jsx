@@ -19,8 +19,6 @@ import Colors from "../../../../assets/projects/e-commerce/colors.png";
 import Chart from "../../../../assets/projects/e-commerce/researchchart.png";
 import Persona from "../../../../assets/projects/e-commerce/persona.png";
 import Competitive_Analysis from "../../../../assets/projects/e-commerce/competitors.png";
-import Concept_testing from "../../../../assets/projects/e-commerce/concept-testing/concept-testing.png";
-import Mid_fi from "../../../../assets/projects/e-commerce/mid-fi/mid-fi.svg";
 import Moodboard from "../../../../assets/projects/e-commerce/moodboard.png";
 import Typography from "../../../../assets/projects/e-commerce/typography.svg";
 import Colors_palate from "../../../../assets/projects/e-commerce/colors.svg";
@@ -28,7 +26,6 @@ import Icons from "../../../../assets/projects/e-commerce/icons.svg";
 import Prototype from "../../../../assets/projects/e-commerce/prototype.png";
 import Thanks from "../../../../assets/projects/e-commerce/thanks.webp"
 
-import Diet_n_Nutrition from "../dietnutrition/DietNutrition";
 
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
@@ -357,7 +354,7 @@ const ECommerce = () => {
                       </div>
 
                       {/* content & objective */}
-                      <div className="row justify-content-between mb-4">
+                      <div className="row justify-content-between">
                         <div className='col-sm-12 col-lg-6'>
                           <div className='row justify-content-between'>
                             <div className='col-12'>
@@ -546,8 +543,8 @@ const ECommerce = () => {
                     <div className="col">
                       <div className="row justify-content-center  mt-5">
                         <div className="col-12 title">
-                          <h2 className="text-center">CONCEPT TESTING</h2>
-                          <h3 className="text-center backtext">CONCEPT TESTING</h3>
+                          <h2 className="text-center">USABILITY TESTING</h2>
+                          <h3 className="text-center backtext">USABILITY TESTING</h3>
                         </div>
                       </div>
                     </div>
@@ -755,7 +752,7 @@ const ECommerce = () => {
 
                     <div className="row mb-1">
                       <div className="col-12">
-                        <p className="prototype-text">Are you want to test this prototype click Me, </p>
+                        <p className="prototype-text">Do you want to do Usability testing with our prototype, click Me! </p>
                       </div>
                     </div>
 
