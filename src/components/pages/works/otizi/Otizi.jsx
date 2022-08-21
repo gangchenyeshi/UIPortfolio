@@ -200,7 +200,7 @@ const otizi = () => {
                                                     <h3 className="sub-heading-diet">Interviews</h3>
                                                 </div>
                                                 <div className="col-xs-12 col-md-9">
-                                                    <div className="row text-center">
+                                                    <div className="row text-center interview-box ">
                                                         <div className="col-12 interviews mb-2">
                                                             <h5>Stackholder</h5>
                                                             <p className="mb-2">“To make it simple for the hosts. access it everywhere. Make it warmer and friendly than the competitors. The main difference with those websites is that they are focus on hotel/motel with a lot of room. So their models have a lot of complexity. Host can be lost.”</p>

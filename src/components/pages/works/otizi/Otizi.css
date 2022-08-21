@@ -84,6 +84,9 @@
 }
 
 /* research */
+.interview-box {
+    padding: 12px;
+}
 .interviews {
     border: 1px solid black;
     border-radius: 4px;
