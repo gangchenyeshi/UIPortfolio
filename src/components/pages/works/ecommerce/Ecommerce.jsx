@@ -164,7 +164,7 @@ const ECommerce = () => {
                                 <p>Tools:</p>
                               </div>
                               <div className="col-10">
-                                <p>Figma, Trello, & Miro</p>
+                                <p>Figma, Trello, Miro, & PPT</p>
                               </div>
                             </div>
                           </div>

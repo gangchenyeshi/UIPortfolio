@@ -2,6 +2,7 @@ import React from 'react';
 import "./DietNutrition.css";
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
+import Container from 'react-bootstrap/Container';
 
 import {
     icons_Ecommerce
@@ -19,7 +20,6 @@ import {
     hifidelity_cta
 } from "./Library"
 
-import Container from 'react-bootstrap/Container';
 
 import Colors from "../../../../assets/projects/diet&nutrition/colors.png";
 import Hero_img from "../../../../assets/projects/diet&nutrition/hero.png";
@@ -83,7 +83,7 @@ const Diet_n_Nutrition = () => {
                                                     <h3 className="backtext">1</h3>
                                                 </div>
                                                 <div className='col-10 align-items-center' >
-                                                    <h2 className="text-center ">Project Introduction</h2>
+                                                    <h2 className="text-center ">PROJECT INTRODUCTION</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,7 +164,7 @@ const Diet_n_Nutrition = () => {
                                                         <p>Tools:</p>
                                                     </div>
                                                     <div className="col-9">
-                                                        <p>Figma, Trello, & Miro</p>
+                                                        <p>Figma, Trello, Miro, & PPT</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -885,14 +885,14 @@ const Diet_n_Nutrition = () => {
                                     <div className="row">
                                         <div className="col mb-5">
                                             <div className="d-grid gap-2 d-md-flex justify-content-center">
-                                                <a href="/otizi">
+                                                <a href="./otizi">
                                                     <button type="button" className="btn btn-outline-success btn-lg project-button p-2 ">
                                                         PREVIOUS PROJECT
                                                     </button>
                                                 </a>
                                                 <a href="./e-commerce_bottega" >
                                                     <button type="button" className="btn btn-outline-success btn-lg project-button p-2">
-                                                        NEXT PROJECTS
+                                                        NEXT PROJECT
                                                     </button>
                                                 </a>
                                             </div>
