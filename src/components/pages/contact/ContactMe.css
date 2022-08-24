@@ -16,11 +16,11 @@
     font-size: 36px;
 }
 .contact-box {
+    /* height: 60vh; */
     background-color: #fff;
     border-radius: 4px;
     text-align: justify;
     justify-content: space-between;
-    align-items: center;
 }
 .my-buttons button{
     min-width: 100px;

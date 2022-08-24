@@ -865,15 +865,11 @@ const Diet_n_Nutrition = () => {
                             {/* Thank you*/}
                             <div className="thanks-container">
                                 <div className="container">
-                                    <div className="row">
-
-                                        {/* image from ecommerce-dir.js*/}
-                                        <div className="row row-cols-1 mb-5">
-                                            <div className="col">
-                                                <div className="align-items-center  pt-3 mt-3">
-
-                                                    <img src={Thanks} className="img-fluid center-block thanks-image" alt="..." />
-                                                </div>
+                                    {/* image from ecommerce-dir.js*/}
+                                    <div className="row d-flex justify-content-center row-cols-1 mb-2">
+                                        <div className="col">
+                                            <div className="align-items-center  pt-3 mt-3">
+                                                <img src={Thanks} className="img-fluid center-block thanks-image" alt="..." />
                                             </div>
                                         </div>
                                     </div>

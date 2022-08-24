@@ -199,7 +199,7 @@ const otizi = () => {
                                                 <div className="col-sm-12 col-md-3">
                                                     <h3 className="sub-heading-diet">Interviews</h3>
                                                 </div>
-                                                <div className="col-xs-12 col-md-9">
+                                                <div className="col-xs-12 col-md-9 interview-row">
                                                     <div className="row text-center interview-box ">
                                                         <div className="col-12 interviews mb-2">
                                                             <h5>Stackholder</h5>
@@ -262,7 +262,7 @@ const otizi = () => {
                                                 <div className="col-xs-12 col-md-9">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <img src={Journey_map} class="img-fluid photos" alt="persona" />
+                                                            <img src={Journey_map} class="img-fluid style-photo" alt="persona" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -317,21 +317,21 @@ const otizi = () => {
                                                             <div class="carousel-item active" data-bs-interval="2000">
                                                                 <img src={Competative_View} class="d-block w-100" alt="..." />
                                                                 <div class="carousel-caption  d-block competative-heading">
-                                                                    <h4 className="">User Guiding, onboarding</h4>
+                                                                    {/* <h4 className="">User Guiding, onboarding</h4> */}
                                                                     <p>Viework’s Product Tour, Created with UserGuiding.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="carousel-item" data-bs-interval="2000">
                                                                 <img src={Competative_Kairn} class="d-block w-100" alt="..." />
                                                                 <div class="carousel-caption d-block competative-heading">
-                                                                    <h4>Select with Tag, onboarding</h4>
+                                                                    {/* <h4>Select with Tag, onboarding</h4> */}
                                                                     <p>Kairn onboarding product, Select with tag/tags.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="carousel-item" data-bs-interval="2000">
                                                                 <img src={Competative_Airbnb} class="d-block w-100" alt="..." />
                                                                 <div class="carousel-caption d-block competative-heading">
-                                                                    <h4>Dropdown Option, onboarding</h4>
+                                                                    {/* <h4>Dropdown Option, onboarding</h4> */}
                                                                     <p>Airbnb onboarding product, Dropdown options.</p>
                                                                 </div>
                                                             </div>
@@ -372,7 +372,7 @@ const otizi = () => {
                                                     <div className="row justify-content-center align-item-center">
                                                         {userflows.map((userflow, index) => (
                                                             <div className="col-xs-12 col-md-4  mb-3">
-                                                                <img src={userflow.image} class="img-fluid photos" alt="userflow" />
+                                                                <img src={userflow.image} class="img-fluid photos-userflow" alt="userflow" />
                                                             </div>
                                                         ))}
                                                     </div>
@@ -423,7 +423,7 @@ const otizi = () => {
                                                 <div className="col-xs-12 col-md-9 mt-3 mb-3">
                                                     <div className="row justify-content-center align-item-center">
                                                         <div className="col-xs-12   mb-3">
-                                                            <img src={Low_fi} class="img-fluid photos" alt="userflow" />
+                                                            <img src={Low_fi} class="img-fluid style-photo" alt="userflow" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -510,10 +510,10 @@ const otizi = () => {
                                                         <div className="col-12 mb-3">
                                                             <div className="row">
                                                                 <div className="col-xs-12 col-md-6 mb-3">
-                                                                    <img src={Style_typo} class="img-fluid photos style-guide" alt="userflow" />
+                                                                    <img src={Style_typo} class="img-fluid style-photo" alt="userflow" />
                                                                 </div>
                                                                 <div className="col-xs-12 col-md-6">
-                                                                    <img src={Colors_Guide} class="img-fluid photos" alt="userflow" />
+                                                                    <img src={Colors_Guide} class="img-fluid style-photo" alt="userflow" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -685,15 +685,11 @@ const otizi = () => {
                             {/* Thank you*/}
                             <div className="thanks-container-otizi">
                                 <div className="container">
-                                    <div className="row">
-
-                                        {/* image from ecommerce-dir.js*/}
-                                        <div className="row row-cols-1 mb-2">
-                                            <div className="col">
-                                                <div className="align-items-center  pt-3 mt-3">
-
-                                                    <img src={Thanks} className="img-fluid center-block thanks-image-otizi" alt="..." />
-                                                </div>
+                                    {/* image from ecommerce-dir.js*/}
+                                    <div className="row d-flex justify-content-center row-cols-1 mb-2">
+                                        <div className="col">
+                                            <div className="align-items-center  pt-3 mt-3">
+                                                <img src={Thanks} className="img-fluid center-block thanks-image-otizi" alt="..." />
                                             </div>
                                         </div>
                                     </div>

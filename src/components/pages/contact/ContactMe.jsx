@@ -34,9 +34,9 @@ const ContactMe = () => {
                 <Row className='justify-content-between my-3'>
                   <Col xs={12} className="contact-box">
                     {/* BUttons */}
-                    <Row >
+                    <Row className="d-flex justify-content-center align-items-center">
                       <Col className="d-flex justify-content-center my-5 flex-wrap">
-                        <div class="d-grid gap-2 d-md-block my-buttons">
+                        <div class="d-grid d-md-block my-buttons">
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
                           </a>

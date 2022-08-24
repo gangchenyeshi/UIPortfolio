@@ -48,8 +48,8 @@
     margin: 0px;
     padding: 8px 0px !important;
 }
-.photos {
-    padding: 16px;
+.photos-userflow {
+    padding:0px;
 }
 /* introduction */
 .sub-heading-diet {
@@ -87,6 +87,9 @@
 .interview-box {
     padding: 12px;
 }
+.interview-row {
+    padding: 0px 12px 0px 0px !important;
+}
 .interviews {
     border: 1px solid black;
     border-radius: 4px;
@@ -116,6 +119,13 @@
     color: var(--primary-dark);
 }
 /* userflow */
+
+/* style guide */
+.style-photo {
+    padding: 16px;
+    border: 1px solid Black;
+    border-radius: 4px;
+}
 
 /* prototype */
 .prototype-container-otizi{
@@ -170,12 +180,15 @@
     }
 
     /* competative */
+    .competative-heading {
+        display: none !important;
+    }
     .competative-heading h4 {
-        font-size: medium;
+        font-size: small;
     }
 
     .competative-heading p {
-        font-size: medium;
+        font-size: small;
         margin: 4px;
     }
 }

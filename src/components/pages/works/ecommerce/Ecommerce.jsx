@@ -815,42 +815,38 @@ const ECommerce = () => {
               {/* Thank you*/}
               <div className="thanks-container">
                 <div className="container">
-                  <div className="row">
-
                     {/* image from ecommerce-dir.js*/}
-                    <div className="row row-cols-1 mb-5">
+                    <div className="row d-flex justify-content-center row-cols-1 mb-2">
                       <div className="col">
                         <div className="align-items-center  pt-3 mt-3">
-
                           <img src={Thanks} className="img-fluid center-block thanks-image" alt="..." />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* Button at end*/}
-              <div className="project-button-container">
-                <div className="container mb-4">
-                  <div className="row">
-                    <div className="col mb-5">
+                {/* Button at end*/}
+                <div className="project-button-container">
+                  <div className="container mb-4">
+                    <div className="row">
+                      <div className="col mb-5">
 
-                      <div className="d-grid gap-2 d-md-flex justify-content-center">
-                        <a href="./diet_n_nutrition" >
-                          <button type="button" className="btn btn-outline-success btn-lg project-button p-2 ">
-                            PREVIOUS PROJECT
-                          </button>
-                        </a>
-                        <a href="/works">
-                          <button type="button" className="btn btn-outline-success btn-lg project-button p-2">
-                            PROJECTS
-                          </button>
-                        </a>
+                        <div className="d-grid gap-2 d-md-flex justify-content-center">
+                          <a href="./diet_n_nutrition" >
+                            <button type="button" className="btn btn-outline-success btn-lg project-button p-2 ">
+                              PREVIOUS PROJECT
+                            </button>
+                          </a>
+                          <a href="/works">
+                            <button type="button" className="btn btn-outline-success btn-lg project-button p-2">
+                              PROJECTS
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
             </Fade>
 
           </Parallax>

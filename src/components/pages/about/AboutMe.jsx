@@ -44,23 +44,17 @@ const AboutMe = () => {
                     </Row>
                     {/* BUttons */}
                     <Row >
-                      <Col className="d-flex justify-content-center flex-wrap mb-5">
-                        <div>
+                      <Col className="d-flex justify-content-center mb-3 flex-wrap">
+                        <div class="d-grid gap-2 d-md-block my-buttons">
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
                           </a>
-                        </div>
-                        <div>
                           <a href="https://drive.google.com/file/d/1Q8Jc5cewG7eY0h84JVC2V0p5popli0aS/view?usp=sharing" target="_blank" >
                             <Button className="p-1" variant="outline-success">My CV</Button>
                           </a>
-                        </div>
-                        <div>
                           <a href="https://profile.ironhack.com/yeshi-tsering-gangchen" target="_blank" >
                             <Button className="p-1" variant="outline-info">Portfolio</Button>
                           </a>
-                        </div>
-                        <div>
                           <a href="https://www.linkedin.com/in/gangchen-yeshi-tsering/" target="_blank" >
                             <Button className="p-1" variant="outline-dark">LinkedIn</Button>
                           </a>
