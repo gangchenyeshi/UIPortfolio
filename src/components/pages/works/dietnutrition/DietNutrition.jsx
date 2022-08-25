@@ -174,20 +174,16 @@ const Diet_n_Nutrition = () => {
                             </div>
 
                             {/* process */}
-                            <div className="process-container diet-container">
+                            <div className="process-container-diet diet-container">
                                 <div className="container">
                                     <div className="row mb-5">
-                                        <div className="col">
-                                            <div className="row">
-                                                <div className='col-12 justify-content-around align-items-center'>
-                                                    <div className="row diet-title align-items-center">
-                                                        <div className='col-1'>
-                                                            <h3 className="backtext">2</h3>
-                                                        </div>
-                                                        <div className='col-10 align-items-center' >
-                                                            <h2 className="text-center ">THE PROCESS</h2>
-                                                        </div>
-                                                    </div>
+                                        <div className='col-12 justify-content-around align-items-center'>
+                                            <div className="row diet-title align-items-center mt-3">
+                                                <div className='col-1'>
+                                                    <h3 className="backtext">2</h3>
+                                                </div>
+                                                <div className='col-10 align-items-center' >
+                                                    <h2 className="text-center ">THE PROCESS</h2>
                                                 </div>
                                             </div>
 
@@ -318,13 +314,13 @@ const Diet_n_Nutrition = () => {
                                         {/* Survey & Interview */}
                                         <div className="row mb-4">
                                             <div className='col-12'>
-                                                <div className='row justify-content-between'>
+                                                <div className="row">
                                                     <div className='col-12'>
                                                         <h4 className="sub-heading ">Survey & Interview </h4>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="row d-flex justify-content-center intro mt-3">
+                                            <div className="row d-flex justify-content-center survey-card">
                                                 <div className="col-xs-6 col-md-3 mb-2">
                                                     <img src={Survey} className="img-fluid" alt="survey" />
                                                 </div>
@@ -424,7 +420,7 @@ const Diet_n_Nutrition = () => {
                                             {/* content & objective */}
 
                                             <h4 className="sub-heading my-1">Ideation</h4>
-                                            <div className="row row-cols-2 row-cols-md-4 g-6 mb-5 process-card">
+                                            <div className="row row-cols-2 row-cols-md-4 g-6 mb-5 solution-card">
 
                                                 {solutions.map((solution, index) => (
 
@@ -706,10 +702,10 @@ const Diet_n_Nutrition = () => {
                                                 </div>
                                             </div>
                                             {/* Style guide components*/}
-                                            <div className="row  row-cols-1 row-cols-md-2  g-6 mb-2">
+                                            <div className="row  row-cols-1 row-cols-md-2  g-6 mb-2 style-card">
                                                 {styles.map((style, index) => (
                                                     <div className="col  d-flex justify-content-center">
-                                                        <div className="  pt-1 mb-1">
+                                                        <div className="  pt-1 mb-1  ">
                                                             <h4 className="sub-heading ">{style.title}</h4>
                                                             {/* <h3 className="text-center mb-1">{style.title}</h3> */}
                                                             <img src={style.image} className="img-fluid style-image center-block" alt="..." />

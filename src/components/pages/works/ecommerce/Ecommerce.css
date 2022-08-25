@@ -88,10 +88,10 @@
 }
 
 /* process*/
-.process-container {
+.process-container-ecommerce{
     background-color: #D3CEC4;
     color: #0B3B28;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 .card-img-icon {
@@ -192,8 +192,8 @@
     }
 
     /* process */
-    .process-container {
-        margin-top: 190px;
+    .process-container-ecommerce{
+        margin-top: 150px;
     }
 
     .card-img-icon {
@@ -201,7 +201,7 @@
     }
 
     .card-title {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     /* Market research */

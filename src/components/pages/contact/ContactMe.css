@@ -16,12 +16,25 @@
     font-size: 36px;
 }
 .contact-box {
-    /* height: 60vh; */
+    height: 57vh;
     background-color: #fff;
     border-radius: 4px;
     text-align: justify;
     justify-content: space-between;
 }
+.contact-box .button-row {
+    margin: 10%;
+}
 .my-buttons button{
-    min-width: 100px;
+    min-width: 120px;
+    min-height: 50px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 780px) {
+    .my-buttons button{
+        min-width: 120px;
+        min-height: 40px;
+        font-weight: 600;
+    }
 }

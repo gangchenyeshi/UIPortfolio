@@ -176,11 +176,11 @@ const ECommerce = () => {
               </div>
 
               {/* process */}
-              <div className="process-container">
+              <div className="process-container-ecommerce">
                 <div className="container">
                   <div className="row">
                     <div className="col">
-                      <div className="row justify-content-center mt-5 ">
+                      <div className="row justify-content-center mt-3">
                         <div className='col-12 title'>
                           <h2 className="text-center">Process</h2>
                           <h3 className="text-center backtext">Process</h3>
