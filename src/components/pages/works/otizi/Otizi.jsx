@@ -622,18 +622,12 @@ const otizi = () => {
                                                     <p>Are you want to do desirable testing with our prototype, click Me!.</p>
                                                 </div>
                                                 <div className="col-xs-12 col-md-9 mt-3 mb-3">
-                                                    <div className="row justify-content-center align-item-center">
-                                                        <div className="col-12 mb-3">
-                                                            <div className="row">
-                                                                <div className="col">
-                                                                    <div className="align-items-center  pt-3 mt-3">
-                                                                        <a href="https://www.figma.com/proto/sDsEApo9Rbl8cgNbECUOMt/OTIZI?page-id=344%3A5639&node-id=344%3A6044&viewport=486%2C289%2C0.02&scaling=scale-down&starting-point-node-id=344%3A5640">
+                                                    {/* <a href="https://www.figma.com/proto/sDsEApo9Rbl8cgNbECUOMt/OTIZI?page-id=344%3A5639&node-id=344%3A6044&viewport=486%2C289%2C0.02&scaling=scale-down&starting-point-node-id=344%3A5640">
                                                                             <img src={Prototype} className="img-fluid center-block prototype-image" alt="..." />
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                        </a> */}
+                                                    <div className="ratio ratio-16x9">
+                                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2zEwcaMxeRE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                                                     </div>
                                                 </div>
                                             </div>
