@@ -410,8 +410,8 @@ const otizi = () => {
                                             </div>
 
                                             {/* low-fi*/}
-                                            <div className="row justify-content-between align-item-center details  mt-3 mb-3">
-                                                <div className="col-sm-12 col-md-3 mt-3">
+                                            <div className="row justify-content-between align-item-center details  mt-2 mb-2">
+                                                <div className="col-sm-12 col-md-3">
                                                     <h3 className="sub-heading-diet">Steps</h3>
                                                     <p>After several Sketches and concept testing with stakeholder engagement, Final solution with 3 steps onboarding.</p>
                                                     <ul>
@@ -437,11 +437,17 @@ const otizi = () => {
                             <div className="mid-fi-container-otizi">
                                 <div className="container">
                                     <div className="row my-0">
-                                        <div className="col-12 mt-4 mb-4">
+                                        <div className="col-12 mt-3">
+                                            <div className="row">
+                                                <div className="col-12 text-center">
+                                                    <h2 className="heading">Mid-fidelity</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 mt-2 mb-2">
                                             {/* Journey map */}
                                             <div className="row justify-content-between align-item-center details  my-3">
                                                 <div className="col-sm-12 col-md-3">
-                                                    <h3 className="sub-heading-diet">MID-FIDELITY</h3>
                                                     <p> This prototype can be used with users for testing purposes before adding all graphics. a consistent layout grid was established to organize the UI elements and keep everything perfectly align across the screens.  </p>
                                                 </div>
                                                 {/* carousel */}
@@ -500,7 +506,7 @@ const otizi = () => {
                                             </div>
 
                                             {/* low-fi*/}
-                                            <div className="row justify-content-between align-item-center details  mt-3 mb-3">
+                                            <div className="row justify-content-between align-item-center details mb-2">
                                                 <div className="col-sm-12 col-md-3 mt-3">
                                                     <h3 className="sub-heading-diet">STYLES GUIDE</h3>
                                                     <p>For the consistancy between onboarding & site, we keep our Typeface & colors remain same.</p>
@@ -538,9 +544,9 @@ const otizi = () => {
 
                                             {/* design iteration*/}
 
-                                            <div className="row justify-content-between align-item-center mt-3 mb-3">
+                                            <div className="row justify-content-between align-item-center mt-2 mb-2">
                                                 {designs_iteration.map((design, index) => (
-                                                    <div className="col-xs-12 col-md-6 mt-3 mb-3">
+                                                    <div className="col-xs-12 col-md-6 mt-2 mb-2">
                                                         <h3 className="sub-heading-diet">{design.title}</h3>
                                                         <img src={design.image} class="img-fluid photos style-guide" alt="userflow" />
                                                     </div>
@@ -617,9 +623,9 @@ const otizi = () => {
                                             </div>
 
                                             {/* low-fi*/}
-                                            <div className="row justify-content-between align-item-center details  mt-3 mb-3">
+                                            <div className="row justify-content-between align-item-center details mb-3">
                                                 <div className="col-sm-12 col-md-3 mt-3">
-                                                    <p>Are you want to do desirable testing with our prototype, click Me!.</p>
+                                                    <p>Are you want to do desirable testing with our prototype, <a href="https://www.figma.com/proto/sDsEApo9Rbl8cgNbECUOMt/OTIZI?page-id=344%3A5639&node-id=344%3A5640&viewport=418%2C358%2C0.04&scaling=scale-down&starting-point-node-id=344%3A5640">click Me!.</a> or watch Me!</p>
                                                 </div>
                                                 <div className="col-xs-12 col-md-9 mt-3 mb-3">
                                                     {/* <a href="https://www.figma.com/proto/sDsEApo9Rbl8cgNbECUOMt/OTIZI?page-id=344%3A5639&node-id=344%3A6044&viewport=486%2C289%2C0.02&scaling=scale-down&starting-point-node-id=344%3A5640">
@@ -640,7 +646,7 @@ const otizi = () => {
                             <div className="next-steps-conclusion-container-otizi">
                                 <div className="container">
                                     <div className="row my-0">
-                                        <div className="col-12 mt-5 mb-5">
+                                        <div className="col-12 mt-3 mb-3">
                                             {/* next steps */}
                                             <div className="row justify-content-between align-item-center details  my-3">
                                                 <div className="col-sm-12 col-md-3">
