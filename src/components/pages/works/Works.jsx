@@ -37,7 +37,7 @@ const Works = () => {
                         <Card className="project-card focus">
                           <Card.Img variant="top" src={project.image} />
                           <Card.Body>
-                            <Card.Title className="title">{project.title}</Card.Title>
+                            <Card.Title className="title "><h5 className="title-card">{project.title}</h5></Card.Title>
                             <Card.Text>
                               <p>{project.description}</p>
                             </Card.Text>
