@@ -42,11 +42,19 @@
 }
 
 
-/* competotive */
+/* competitive */
 .competitor-logo {
     max-height: 80px;
     min-height: 80px;
     height: 80px;
+}
+.sub-heading6 {
+    font-weight: 600;
+}
+/* usability testing */
+.sub-heading5 {
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 /* interviews */
 .survey-card, .style-card {
@@ -76,7 +84,7 @@
 
     /* process */
     .process-container-diet {
-        margin-top: -140px;
+        margin-top: -20px;
     }
     .card-img-icon {
         height: 32px !important;

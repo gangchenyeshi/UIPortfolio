@@ -176,7 +176,7 @@ const Diet_n_Nutrition = () => {
                             {/* process */}
                             <div className="process-container-diet diet-container">
                                 <div className="container">
-                                    <div className="row mb-5">
+                                    <div className="row mb-2">
                                         <div className='col-12 justify-content-around align-items-center'>
                                             <div className="row diet-title align-items-center mt-3">
                                                 <div className='col-1'>
@@ -209,7 +209,7 @@ const Diet_n_Nutrition = () => {
                             {/* Market research */}
                             <div className="market-container">
                                 <div className="container">
-                                    <div className="row mb-5">
+                                    <div className="row mb-2">
                                         <div className="col">
                                             <div className="row  mt-3">
                                                 <div className='col-12 justify-content-around align-items-center'>
@@ -463,7 +463,7 @@ const Diet_n_Nutrition = () => {
 
                                             <div className="row justify-content-md-center mt-2 mb-2">
                                                 <div className='col-12'>
-                                                    <h5 className="sub-heading">VKey Features</h5>
+                                                    <h6 className="sub-heading6">Key Features</h6>
                                                     <ul>
                                                         <li>Save meal in favorite list</li>
                                                         <li>Add meal in plan for Quick preparation</li>
@@ -478,17 +478,19 @@ const Diet_n_Nutrition = () => {
 
                             {/* user flow */}
                             <div className="userflow-container">
-                                <div className="container mb-2">
-                                    <div className="col">
-                                        {/* content & objective */}
-                                        <hr />
-                                        <div className="row justify-content-between align-items-center mt-4 mb-4">
-                                            <div className='col-sm-12 col-lg-6'>
-                                                <h4 className="sub-heading ">User Flow</h4>
-                                                <p>The user flow diagram identified key actions within the app and screens to focus on. </p>
-                                            </div>
-                                            <div className='col-sx-12 col-lg-6'>
-                                                <img src={User_Flow} className="img-fluid" alt="chart" />
+                                <div className="container">
+                                    <div className="row mb-3">
+                                        <div className="col">
+                                            {/* content & objective */}
+                                            <hr />
+                                            <div className="row justify-content-between align-items-center mt-4 mb-4">
+                                                <div className='col-sm-12 col-lg-6'>
+                                                    <h4 className="sub-heading ">User Flow</h4>
+                                                    <p>The user flow diagram identified key actions within the app and screens to focus on. </p>
+                                                </div>
+                                                <div className='col-sx-12 col-lg-6'>
+                                                    <img src={User_Flow} className="img-fluid" alt="chart" />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -533,56 +535,54 @@ const Diet_n_Nutrition = () => {
                             {/* Usability testing*/}
                             <div className="usability-testing-diet-container">
                                 <div className="container">
-                                    <div className="col">
-                                        <div className="row  mt-3">
-                                            <div className='col-12 justify-content-around align-items-center mt-4'>
-                                                <div className="row diet-title align-items-center">
-                                                    <div className='col-1'>
-                                                        <h3 className="backtext">7</h3>
-                                                    </div>
-                                                    <div className='col-10 align-items-center' >
-                                                        <h2 className="text-center ">USABILITY TESTING</h2>
-                                                    </div>
+                                    <div className="row  mt-3">
+                                        <div className='col-12 justify-content-around align-items-center mt-4'>
+                                            <div className="row diet-title align-items-center">
+                                                <div className='col-1'>
+                                                    <h3 className="backtext">7</h3>
+                                                </div>
+                                                <div className='col-10 align-items-center' >
+                                                    <h2 className="text-center ">USABILITY TESTING</h2>
                                                 </div>
                                             </div>
-                                            <div className="row justify-content-md-center mt-2 mb-2">
-                                                <div className='col-12'>
-                                                    <p className="">For the Mid-fi we did usability testing with 6  participants. We asked our participants performance testing for understanding how quickly the users can finish the tasks. Feedback was collected. </p>
-                                                    <p>These iteration included: </p>
+                                        </div>
+                                        <div className="row justify-content-md-center mt-2 mb-2">
+                                            <div className='col-12'>
+                                                <p className="">For the Mid-fi we did usability testing with 6  participants. We asked our participants performance testing for understanding how quickly the users can finish the tasks. Feedback was collected. </p>
+                                                <p>These iteration included: </p>
+                                            </div>
+                                        </div>
+                                        {/* Onboarding */}
+                                        <div className="row justify-content-md-center mt-0 mb-2">
+                                            <div className='col-12'>
+                                                <h5 className="sub-heading text-center sub-heading5">Onboarding</h5>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col">
+                                                <div className="row justify-content-between align-items-center">
+                                                    {onboardings.map((onboarding, index) => (
+                                                        <div className='col-sx-12 col-lg-6 mb-2'>
+                                                            <img src={onboarding.image} className="img-fluid" alt="onboarding" />
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
-                                            {/* Onboarding */}
-                                            <div className="row justify-content-md-center mt-2 mb-2">
-                                                <div className='col-12'>
-                                                    <h5 className="sub-heading text-center">Onboarding</h5>
-                                                </div>
+                                        </div>
+                                        {/* Landing */}
+                                        <div className="row justify-content-md-center mt-2 mb-2">
+                                            <div className='col-12'>
+                                                <h5 className="sub-heading text-center sub-heading5">Landing page</h5>
                                             </div>
-                                            <div className="row">
-                                                <div className="col">
-                                                    <div className="row justify-content-between align-items-center">
-                                                        {onboardings.map((onboarding, index) => (
-                                                            <div className='col-sx-12 col-lg-6 mb-2'>
-                                                                <img src={onboarding.image} className="img-fluid" alt="onboarding" />
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Landing */}
-                                            <div className="row justify-content-md-center mt-2 mb-2">
-                                                <div className='col-12'>
-                                                    <h5 className="sub-heading text-center">Landing page</h5>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col">
-                                                    <div className="row justify-content-between align-items-center mb-4">
-                                                        {landings.map((landing, index) => (
-                                                            <div className='col-sx-12 col-lg-6 mb-2'>
-                                                                <img src={landing.image} className="img-fluid" alt="onboarding" />
-                                                            </div>
-                                                        ))}
-                                                    </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col">
+                                                <div className="row justify-content-between align-items-center mb-4">
+                                                    {landings.map((landing, index) => (
+                                                        <div className='col-sx-12 col-lg-6 mb-2'>
+                                                            <img src={landing.image} className="img-fluid" alt="onboarding" />
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
                                         </div>
@@ -592,57 +592,55 @@ const Diet_n_Nutrition = () => {
 
                             {/* mid-fi*/}
                             <div className="mid-fi-diet-container">
-                                <div className="container mb-2">
-                                    <div className="col">
-                                        <div className="row">
-                                            <div className='col-12 justify-content-around align-items-center mt-4'>
-                                                <div className="row diet-title align-items-center">
-                                                    <div className='col-1'>
-                                                        <h3 className="backtext">8</h3>
-                                                    </div>
-                                                    <div className='col-10 align-items-center' >
-                                                        <h2 className="text-center ">MID-FIDELITY</h2>
-                                                    </div>
+                                <div className="container">
+                                    <div className="row mt-3">
+                                        <div className='col-12 justify-content-around align-items-center mt-4'>
+                                            <div className="row diet-title align-items-center">
+                                                <div className='col-1'>
+                                                    <h3 className="backtext">8</h3>
+                                                </div>
+                                                <div className='col-10 align-items-center' >
+                                                    <h2 className="text-center ">MID-FIDELITY</h2>
                                                 </div>
                                             </div>
-                                            <div className="row justify-content-md-center mt-2 mb-2">
-                                                <div className='col-12'>
-                                                    <p className="">This was final mid-fi prototype after feetback collected from the usability testing and can be used with users for testing purposes before adding all graphics. </p>
+                                        </div>
+                                        <div className="row justify-content-md-center mt-2 mb-2">
+                                            <div className='col-12'>
+                                                <p className="">This was final mid-fi prototype after feetback collected from the usability testing and can be used with users for testing purposes before adding all graphics. </p>
 
-                                                </div>
                                             </div>
-                                            {/* mid-fi for onboarding*/}
-                                            <div className="row justify-content-md-center mt-2">
-                                                <div className='col-12'>
-                                                    <h3 className="sub-heading text-center">Onboarding</h3>
-                                                </div>
+                                        </div>
+                                        {/* mid-fi for onboarding*/}
+                                        <div className="row justify-content-md-center mt-2">
+                                            <div className='col-12'>
+                                                <h3 className="sub-heading text-center sub-heading5">Onboarding</h3>
                                             </div>
-                                            <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
-                                                {midfi_onboardings.map((onboarding, index) => (
-                                                    <div className="col">
-                                                        <div className="align-items-center  pt-1 mb-3">
-                                                            <img src={onboarding.image} className="img-fluid center-block" alt="..." />
-                                                            <p className="text-center mb-1">{onboarding.title}</p>
-                                                        </div>
+                                        </div>
+                                        <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
+                                            {midfi_onboardings.map((onboarding, index) => (
+                                                <div className="col">
+                                                    <div className="align-items-center  pt-1 mb-3">
+                                                        <img src={onboarding.image} className="img-fluid center-block" alt="..." />
+                                                        <p className="text-center mb-1">{onboarding.title}</p>
                                                     </div>
-                                                ))}
-                                            </div>
-                                            {/* mid-fi for site*/}
-                                            <div className="row justify-content-md-center mt-2">
-                                                <div className='col-12'>
-                                                    <h5 className="sub-heading text-center">Main pages </h5>
                                                 </div>
+                                            ))}
+                                        </div>
+                                        {/* mid-fi for site*/}
+                                        <div className="row justify-content-md-center mt-2">
+                                            <div className='col-12'>
+                                                <h5 className="sub-heading text-center sub-heading5">Main pages </h5>
                                             </div>
-                                            <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
-                                                {midfi_sites.map((site, index) => (
-                                                    <div className="col">
-                                                        <div className="align-items-center  pt-1 mb-3">
-                                                            <img src={site.image} className="img-fluid center-block" alt="..." />
-                                                            <p className="text-center mb-1">{site.title}</p>
-                                                        </div>
+                                        </div>
+                                        <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
+                                            {midfi_sites.map((site, index) => (
+                                                <div className="col">
+                                                    <div className="align-items-center  pt-1 mb-3">
+                                                        <img src={site.image} className="img-fluid center-block" alt="..." />
+                                                        <p className="text-center mb-1">{site.title}</p>
                                                     </div>
-                                                ))}
-                                            </div>
+                                                </div>
+                                            ))}
                                         </div>
                                     </div>
                                 </div>
@@ -681,38 +679,36 @@ const Diet_n_Nutrition = () => {
 
                             {/* Style guide*/}
                             <div className="styleguide-diet-container">
-                                <div className="container mb-2">
-                                    <div className="col">
-                                        <div className="row">
-                                            <div className='col-12 justify-content-around align-items-center mt-4'>
-                                                <div className="row diet-title align-items-center">
-                                                    <div className='col-1'>
-                                                        <h3 className="backtext">9</h3>
-                                                    </div>
-                                                    <div className='col-10 align-items-center' >
-                                                        <h2 className="text-center ">STYLE GUIDE</h2>
-                                                    </div>
+                                <div className="container">
+                                    <div className="row mt-3 pb-5">
+                                        <div className='col-12 justify-content-around align-items-center mt-4'>
+                                            <div className="row diet-title align-items-center">
+                                                <div className='col-1'>
+                                                    <h3 className="backtext">9</h3>
+                                                </div>
+                                                <div className='col-10 align-items-center' >
+                                                    <h2 className="text-center ">STYLE GUIDE</h2>
                                                 </div>
                                             </div>
-                                            <div className="row justify-content-md-center mt-2 mb-2">
-                                                <div className='col-12'>
-                                                    <p className="">For our main CTA, we decided to go with yellow (Flavescent) as it comes from people and vegetables, it connects with people and nutrition.</p>
-                                                    <p>For our most used color, I choose Mountain Meadow (green) it gives everyone close to nature and feels fresh.</p>
+                                        </div>
+                                        <div className="row justify-content-md-center mt-2 mb-2">
+                                            <div className='col-12'>
+                                                <p className="">For our main CTA, we decided to go with yellow (Flavescent) as it comes from people and vegetables, it connects with people and nutrition.</p>
+                                                <p>For our most used color, I choose Mountain Meadow (green) it gives everyone close to nature and feels fresh.</p>
 
-                                                </div>
                                             </div>
-                                            {/* Style guide components*/}
-                                            <div className="row  row-cols-1 row-cols-md-2  g-6 mb-2 style-card">
-                                                {styles.map((style, index) => (
-                                                    <div className="col  d-flex justify-content-center">
-                                                        <div className="  pt-1 mb-1  ">
-                                                            <h4 className="sub-heading ">{style.title}</h4>
-                                                            {/* <h3 className="text-center mb-1">{style.title}</h3> */}
-                                                            <img src={style.image} className="img-fluid style-image center-block" alt="..." />
-                                                        </div>
+                                        </div>
+                                        {/* Style guide components*/}
+                                        <div className="row  row-cols-1 row-cols-md-2  g-6 mb-2 style-card">
+                                            {styles.map((style, index) => (
+                                                <div className="col  d-flex justify-content-center">
+                                                    <div className="  pt-1 mb-1  ">
+                                                        <h4 className="sub-heading sub-heading5">{style.title}</h4>
+                                                        {/* <h3 className="text-center mb-1">{style.title}</h3> */}
+                                                        <img src={style.image} className="img-fluid style-image center-block" alt="..." />
                                                     </div>
-                                                ))}
-                                            </div>
+                                                </div>
+                                            ))}
                                         </div>
                                     </div>
                                 </div>
@@ -748,17 +744,17 @@ const Diet_n_Nutrition = () => {
                             <div className="final-design-container">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col mb-5">
+                                        <div className="col">
                                             <div className="row justify-content-center">
-                                                <div className='col-12 title mt-5 mb-1'>
+                                                <div className='col-12 title mt-4 mb-2'>
                                                     <h2 className="text-center">FINAL-DESIGN</h2>
                                                 </div>
                                             </div>
 
                                             {/* hi-fi onboading image from componentjs*/}
-                                            <div className="row justify-content-md-center mt-2">
+                                            <div className="row justify-content-md-center">
                                                 <div className='col-12'>
-                                                    <h3 className="sub-heading text-center">Onboarding</h3>
+                                                    <h3 className="sub-heading text-center sub-heading5 ">Onboarding</h3>
                                                 </div>
                                             </div>
                                             <div className="row row-cols-2 row-cols-md-5  g-6">
@@ -775,7 +771,7 @@ const Diet_n_Nutrition = () => {
                                             {/* hi-fi CTA image from componentjs*/}
                                             <div className="row justify-content-md-center mt-2">
                                                 <div className='col-12'>
-                                                    <h5 className="sub-heading text-center">Main Pages</h5>
+                                                    <h5 className="sub-heading text-center sub-heading5">Main Pages</h5>
                                                 </div>
                                             </div>
                                             <div className="row row-cols-2 row-cols-md-5  g-6 mb-5">
@@ -798,8 +794,8 @@ const Diet_n_Nutrition = () => {
                             <div className="prototype-container">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col mb-5">
-                                            <div className="row justify-content-center  mt-5">
+                                        <div className="col mb-3">
+                                            <div className="row justify-content-center  mt-3">
                                                 <div className="col-12 title">
                                                     <h2 className="text-center">Prototype</h2>
                                                 </div>
@@ -808,14 +804,14 @@ const Diet_n_Nutrition = () => {
 
                                         <div className="row mb-1">
                                             <div className="col-12">
-                                                <p className="prototype-text">Are you want to do Usability testing with our prototype, click Me! </p>
+                                                <p className="prototype-text">Are you want to do Usability testing with our prototype, click below! </p>
                                             </div>
                                         </div>
 
                                         {/* image from ecommerce-dir.js*/}
                                         <div className="row row-cols-1 mb-5">
                                             <div className="col">
-                                                <div className="align-items-center  pt-3 mt-3">
+                                                <div className="align-items-center  pt-3 mt-2">
                                                     <a href="https://www.figma.com/proto/MzdL5mVLhytyefs6z0H0Uh/Diet-%26-Nutrition?page-id=3%3A1261&node-id=18%3A11959&viewport=3767%2C49%2C0.26&scaling=scale-down&starting-point-node-id=62%3A6160">
                                                         <img src={Prototype} className="img-fluid center-block prototype-image" alt="..." />
                                                     </a>
@@ -833,7 +829,7 @@ const Diet_n_Nutrition = () => {
                                     <div className="row">
                                         <div className="col mb-5">
                                             <div className="row justify-content-center">
-                                                <div className='col-12 title mt-5 mb-4'>
+                                                <div className='col-12 title mt-5'>
                                                     <h2 className="text-center">conclusion</h2>
                                                 </div>
                                             </div>
