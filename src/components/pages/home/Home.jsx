@@ -5,7 +5,7 @@ import "../home/Home.css";
 //npm
 import Button from 'react-bootstrap/Button';
 import AboutMe from '../about/AboutMe';
-import Works from "../works/Works";
+import Work from "../works/Work";
 
 const Home = () => {
 
@@ -47,7 +47,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Works />
+            <Work />
             <AboutMe />
 
         </>

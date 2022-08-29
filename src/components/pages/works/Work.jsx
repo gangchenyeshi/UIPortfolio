@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Works.css";
+import "./Work.css";
 import { projects } from "./ProjectList";
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
@@ -14,7 +14,7 @@ import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button';
 import Img from 'react-bootstrap/Image';
 
-const Works = () => {
+const Work = () => {
   return (
 
     <>
@@ -26,7 +26,7 @@ const Works = () => {
           strength={-200}
         >
           <div className="work">
-            <h1 className="text-center pt-5 ">Works</h1>
+            <h1 className="text-center pt-5 ">Work</h1>
             <hr />
             <Container className="container-box rounded">
               <Fade bottom duration={500}>
@@ -56,4 +56,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default Work

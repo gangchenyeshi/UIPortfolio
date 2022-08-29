@@ -9,18 +9,18 @@ export const projects = [
         title:"Onboarding for Otizi.fr",
         image:P_Otizi,
         description:"An onboarding where the users(host) enter his B&B infos",
-        link:"/works/otizi"
+        link:"/work/otizi"
     },
     {
         title:"DayLish Dish App",
         image:P_dietAndNutrition,
         description:"Your one-stop Diet & Nutrition plan with quick recipes",
-        link:"/works/diet_n_nutrition"
+        link:"/work/diet_n_nutrition"
     },
     {
         title:"Online site for vintage store",
         image:P_Vintage,
         description:"Add to cart & Check-out Process for Bottega store, Paris.",
-        link:"/works/e-commerce_bottega"
+        link:"/work/e-commerce_bottega"
     },
 ];

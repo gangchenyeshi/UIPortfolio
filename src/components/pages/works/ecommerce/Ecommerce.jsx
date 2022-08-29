@@ -752,7 +752,7 @@ const ECommerce = () => {
 
                     <div className="row mb-1">
                       <div className="col-12">
-                        <p className="prototype-text">Do you want to do Usability testing with our prototype, click Me! </p>
+                        <p className="prototype-text">Do you want to do Usability testing with our prototype, Click Below! </p>
                       </div>
                     </div>
 
