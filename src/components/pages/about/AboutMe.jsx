@@ -49,7 +49,7 @@ const AboutMe = () => {
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
                           </a>
-                          <a href="https://drive.google.com/file/d/1Q8Jc5cewG7eY0h84JVC2V0p5popli0aS/view?usp=sharing" target="_blank" >
+                          <a href="https://drive.google.com/file/d/12j0257Cj5cCBju5xw6MNtHr-HM_yDwZb/view?usp=sharing" target="_blank" >
                             <Button className="p-1" variant="outline-success">My CV</Button>
                           </a>
                           <a href="https://profile.ironhack.com/yeshi-tsering-gangchen" target="_blank" >

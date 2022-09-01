@@ -39,7 +39,7 @@ const Home = () => {
                                 <i class="fab fa-github-square icons"></i>
                             </Button>
                         </a>
-                        <a href="https://drive.google.com/file/d/1Dbx2Te0DNH0GtlnBaGF-uHuzy1XkNKnM/view" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/12j0257Cj5cCBju5xw6MNtHr-HM_yDwZb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-dark">
                                 <i class="fa fa-address-card" aria-hidden="true"></i>
                             </Button>

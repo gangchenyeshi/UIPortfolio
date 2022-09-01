@@ -34,13 +34,18 @@ const ContactMe = () => {
                 <Row className='justify-content-between my-3'>
                   <Col xs={12} className="contact-box">
                     {/* BUttons */}
+                    <Row className="text-center pt-5 mt-5">
+                      <Col>
+                      <h4>Get in Touch with me!</h4>
+                      </Col>
+                    </Row>
                     <Row className="d-flex justify-content-center align-items-center button-row">
-                      <Col className="d-flex justify-content-center my-5 flex-wrap">
+                      <Col className="d-flex justify-content-center mb-5 flex-wrap">
                         <div class="d-grid d-md-block my-buttons">
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
                           </a>
-                          <a href="https://drive.google.com/file/d/1Q8Jc5cewG7eY0h84JVC2V0p5popli0aS/view?usp=sharing" target="_blank" >
+                          <a href="https://drive.google.com/file/d/12j0257Cj5cCBju5xw6MNtHr-HM_yDwZb/view?usp=sharing" target="_blank" >
                             <Button className="p-1" variant="outline-success">My CV</Button>
                           </a>
                           <a href="https://profile.ironhack.com/yeshi-tsering-gangchen" target="_blank" >
