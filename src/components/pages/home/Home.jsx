@@ -42,6 +42,12 @@ const Home = () => {
                         <a href="https://drive.google.com/file/d/12j0257Cj5cCBju5xw6MNtHr-HM_yDwZb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-dark">
                                 <i class="fa fa-address-card" aria-hidden="true"></i>
+                                {/* <i class="fa-regular fa-address-card"></i> */}
+                            </Button>
+                        </a>
+                        <a href="https://dribbble.com/Yeshi_Gangchen" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-dark">
+                                <i class="fab fa-dribbble-square icons" aria-hidden="true"></i>
                             </Button>
                         </a>
                     </div>
