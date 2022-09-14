@@ -45,7 +45,7 @@ const AboutMe = () => {
                     {/* BUttons */}
                     <Row >
                       <Col className="d-flex justify-content-center mb-3 flex-wrap">
-                        <div class="d-grid gap-2 d-md-block my-buttons">
+                        <div class="d-grid gap-1 d-md-block my-buttons social-button">
                           <a href="mailto:yestsering@gmail.com" target="_blank">
                             <Button className="p-1" variant="outline-primary">Let's talk</Button>
                           </a>
@@ -57,6 +57,9 @@ const AboutMe = () => {
                           </a>
                           <a href="https://www.linkedin.com/in/gangchen-yeshi-tsering/" target="_blank" >
                             <Button className="p-1" variant="outline-dark">LinkedIn</Button>
+                          </a>
+                          <a href="https://dribbble.com/Yeshi_Gangchen" target="_blank" >
+                            <Button className="p-1" variant="outline-warning">Dribbble</Button>
                           </a>
                         </div>
                       </Col>
