@@ -132,7 +132,7 @@ const Diet_n_Nutrition = () => {
                                                         <p>Team:</p>
                                                     </div>
                                                     <div className="col-9">
-                                                        <p>Group project with 3 people</p>
+                                                        <p>Thomas, Yasmin, & Yeshi.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -855,9 +855,9 @@ const Diet_n_Nutrition = () => {
                             </div>
 
                             {/* Thank you*/}
-                            <div className="thanks-container">
+                            {/* <div className="thanks-container">
                                 <div className="container">
-                                    {/* image from ecommerce-dir.js*/}
+                                
                                     <div className="row d-flex justify-content-center row-cols-1 mb-2">
                                         <div className="col">
                                             <div className="align-items-center  pt-3 mt-3">
@@ -866,7 +866,7 @@ const Diet_n_Nutrition = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* Button at end*/}
                             <div className="project-button-container">
                                 <div className="container mb-4">

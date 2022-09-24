@@ -132,7 +132,7 @@ const ECommerce = () => {
                                 <p>Team:</p>
                               </div>
                               <div className="col-10">
-                                <p>Group Project with 4 people</p>
+                                <p>Kristiina, Shweta, Tideth, &  Yeshi.</p>
                               </div>
                             </div>
                           </div>
@@ -225,9 +225,9 @@ const ECommerce = () => {
                             <div className='col-12'>
                               <h4 className="sub-heading mt-0">Secondary Research</h4>
                               <p>As we wanted to know the market for the second hand e-shop. We found out that</p>
-                              <p>Vinted has not overshadowed the second hand industry. On the contrary, this site has helped to spread second-hand culture.</p>
+                              <p>Vintage has not overshadowed the second hand industry. On the contrary, this site has helped to spread second-hand culture.</p>
 
-                              <p>Second-hand fashion is everywhere today: after a few pioneers paved the way, mainstream brands like Kiabi and Camaïeu are getting started.</p>
+                              {/* <p>Second-hand fashion is everywhere today: after a few pioneers paved the way, mainstream brands like Kiabi and Camaïeu are getting started.</p> */}
                             </div>
                           </div>
                         </div>
@@ -813,9 +813,9 @@ const ECommerce = () => {
               </div>
 
               {/* Thank you*/}
-              <div className="thanks-container">
+              {/* <div className="thanks-container">
                 <div className="container">
-                    {/* image from ecommerce-dir.js*/}
+                  
                     <div className="row d-flex justify-content-center row-cols-1 mb-2">
                       <div className="col">
                         <div className="align-items-center  pt-3 mt-3">
@@ -824,7 +824,7 @@ const ECommerce = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* Button at end*/}
                 <div className="project-button-container">
                   <div className="container mb-4">

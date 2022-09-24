@@ -683,9 +683,9 @@ const otizi = () => {
                                 </div>
                             </div>
                             {/* Thank you*/}
-                            <div className="thanks-container-otizi">
+                            {/* <div className="thanks-container-otizi">
                                 <div className="container">
-                                    {/* image from ecommerce-dir.js*/}
+                                    
                                     <div className="row d-flex justify-content-center row-cols-1 mb-2">
                                         <div className="col">
                                             <div className="align-items-center  pt-3 mt-3">
@@ -694,7 +694,7 @@ const otizi = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* Button at end*/}
                             <div className="project-button-container">
                                 <div className="container mb-3 mt-3">
