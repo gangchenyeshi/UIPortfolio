@@ -11,18 +11,7 @@ import userflow_1 from "../../../../assets/projects/otizi/userflow/userflow1.png
 import userflow_2 from "../../../../assets/projects/otizi/userflow/userflow2.png";
 import userflow_3 from "../../../../assets/projects/otizi/userflow/userflow3.png";
 
-//midfi
-import Mid_fi1 from "../../../../assets/projects/otizi/midfi/midfi1.png";
-import Mid_fi2 from "../../../../assets/projects/otizi/midfi/midfi2.png";
-import Mid_fi3 from "../../../../assets/projects/otizi/midfi/midfi3.png";
-import Mid_fi4 from "../../../../assets/projects/otizi/midfi/midfi4.png";
-import Mid_fi5 from "../../../../assets/projects/otizi/midfi/midfi5.png";
-import Mid_fi6 from "../../../../assets/projects/otizi/midfi/midfi6.png";
-import Mid_fi7 from "../../../../assets/projects/otizi/midfi/midfi7.png";
-import Mid_fi8 from "../../../../assets/projects/otizi/midfi/midfi8.png";
-import Mid_fi9 from "../../../../assets/projects/otizi/midfi/midfi9.png";
-import Mid_fi10 from "../../../../assets/projects/otizi/midfi/midfi10.png";
-import Mid_fi11 from "../../../../assets/projects/otizi/midfi/midfi11.png";
+
 
 //design iteration
 import design_rule_before from "../../../../assets/projects/otizi/designfeedback/rule-before.png";
@@ -171,107 +160,6 @@ export const designs_iteration =[
     {
         image:design_logement_after,
         title:"After"
-    },
-];
-export const midfis = [
-    {
-        image: Mid_fi1,
-        title:"HI",
-        dataSlideTo:"0",
-        ariaLabel:"Slide 1",
-        class:"carousel-item active",
-        buttonClass:"active",
-        ariaCurrent:"true"
-    },
-    {
-        image: Mid_fi2,
-        title:"HI1",
-        dataSlideTo:"1",
-        ariaLabel:"Slide 2",
-        class:"carousel-item",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi3,
-        title:"HI2",
-        dataSlideTo:"2",
-        ariaLabel:"Slide 3",
-        class:"carousel-item",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi4,
-        title:"HI3",
-        dataSlideTo:"3",
-        ariaLabel:"Slide 4",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi5,
-        title:"HI4",
-        dataSlideTo:"4",
-        ariaLabel:"Slide 5",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi6,
-        title:"HI5",
-        dataSlideTo:"5",
-        ariaLabel:"Slide 6",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi7,
-        title:"HI6",
-        aataSlideTo:"6",
-        ariaLabel:"Slide 7",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi8,
-        title:"HI7",
-        dataSlideTo:"7",
-        ariaLabel:"Slide 8",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi9,
-        title:"HI8",
-        dataSlideTo:"8",
-        ariaLabel:"Slide 9",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi10,
-        title:"HI9",
-        dataSlideTo:"9",
-        ariaLabel:"Slide 10",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
-    },
-    {
-        image: Mid_fi11,
-        title:"HI10",
-        dataSlideTo:"10",
-        ariaLabel:"Slide 11",
-        class:"carousel-item ",
-        buttonClass:"",
-        ariaCurrent:""
     },
 ];
 export const userflows = [

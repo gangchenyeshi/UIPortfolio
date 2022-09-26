@@ -33,6 +33,8 @@ import Moodboard from "../../../../assets/projects/diet&nutrition/moodboard.png"
 import Prototype from "../../../../assets/projects/diet&nutrition/hifi/onboarding/onboarding-page0.png"
 import Thanks from "../../../../assets/projects/diet&nutrition/thanks.jpg";
 
+import Midfi from "../../../../assets/projects/diet&nutrition/midfi/midfi.png";
+
 const Diet_n_Nutrition = () => {
     return (
         <>
@@ -611,37 +613,11 @@ const Diet_n_Nutrition = () => {
                                             </div>
                                         </div>
                                         {/* mid-fi for onboarding*/}
-                                        <div className="row justify-content-md-center mt-2">
-                                            <div className='col-12'>
-                                                <h3 className="sub-heading text-center sub-heading5">Onboarding</h3>
-                                            </div>
+                                        
+                                        <div className='col-sm-12 col-lg-12'>
+                                            <img src={Midfi} className="img-fluid" alt="chart" />
                                         </div>
-                                        <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
-                                            {midfi_onboardings.map((onboarding, index) => (
-                                                <div className="col">
-                                                    <div className="align-items-center  pt-1 mb-3">
-                                                        <img src={onboarding.image} className="img-fluid center-block" alt="..." />
-                                                        <p className="text-center mb-1">{onboarding.title}</p>
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
-                                        {/* mid-fi for site*/}
-                                        <div className="row justify-content-md-center mt-2">
-                                            <div className='col-12'>
-                                                <h5 className="sub-heading text-center sub-heading5">Main pages </h5>
-                                            </div>
-                                        </div>
-                                        <div className="row row-cols-2 row-cols-md-4  g-6 mb-2">
-                                            {midfi_sites.map((site, index) => (
-                                                <div className="col">
-                                                    <div className="align-items-center  pt-1 mb-3">
-                                                        <img src={site.image} className="img-fluid center-block" alt="..." />
-                                                        <p className="text-center mb-1">{site.title}</p>
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>

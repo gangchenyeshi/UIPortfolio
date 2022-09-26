@@ -14,6 +14,8 @@ import Competative_View from "../../../../assets/projects/otizi/competative/view
 import Competative_Kairn from "../../../../assets/projects/otizi/competative/kairn.png";
 import Competative_Airbnb from "../../../../assets/projects/otizi/competative/airbnb.png";
 import Userflow_onboarding from "../../../../assets/projects/otizi/userflow/userflownew.png";
+import Midfi from "../../../../assets/projects/otizi/midfi/midfi.png"
+import Hifi from "../../../../assets/projects/otizi/hifi/hifi.png"
 import Low_fi from "../../../../assets/projects/otizi/sketches.png";
 import Style_typo from "../../../../assets/projects/otizi/styleguide/typography.png";
 import Colors_Guide from "../../../../assets/projects/otizi/styleguide/colorsGuide.png";
@@ -61,7 +63,7 @@ const otizi = () => {
                                                 <div className="col-sm-12 col-lg-7 hero-text">
                                                     <h1>ONBOARDING FOR Otizi.fr</h1>
                                                     <h1>UX/UI CHALLENGE</h1>
-                                                    <p className="pt-3">An onboarding where the users(host) enter his B&B infos</p>
+                                                    <p className="pt-3">An onboarding where the users(host) enter Her B&B infos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -202,13 +204,15 @@ const otizi = () => {
                                                 <div className="col-xs-12 col-md-9 interview-row">
                                                     <div className="row text-center interview-box ">
                                                         <div className="col-12 interviews mb-2">
-                                                            <h5>Stackholder</h5>
-                                                            <p className="mb-2">“To make it simple for the hosts. access it everywhere. Make it warmer and friendly than the competitors. The main difference with those websites is that they are focus on hotel/motel with a lot of room. So their models have a lot of complexity. Host can be lost.”</p>
+                                                            <h5><b>STACKHOLDER</b></h5>
+                                                            <p className="mb-2"><i><b>“To make it simple for the hosts. access it everywhere. Make it warmer and friendly than the competitors. The main difference with those websites is that they are focus on hotel/motel with a lot of room. So their models have a lot of complexity. Host can be lost.”</b></i></p>
                                                         </div>
                                                         <div className="col-12 interviews">
-                                                            <h5>Users </h5>
-                                                            <p className="mb-2">“The clients prefer the atmosphere and the service as well as the lower price”</p>
-                                                            <p>“the app was easy to use but poorly guided through it so it was hard to put all her info”</p>
+                                                            <h5><b>USERS </b></h5>
+                                                            <i><b>
+                                                                <p className="mb-2">“The clients prefer the atmosphere and the service as well as the lower price”</p>
+                                                                <p>“The app was user friendly but poorly guided through it so it was hard to put all her info”</p>
+                                                            </b></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -284,7 +288,7 @@ const otizi = () => {
                                                 <div className="col-xs-10 col-md-9">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <p className="text-center">“B&B host like Françoise want a channel manager that will friendly guided them during the process in a playful way that helps them discover Otizi app because right now, the process is too technical”.</p>
+                                                            <p className="text-center"><i>“B&B host like Françoise want a channel manager that will friendly guided them during the process in a playful way that helps them discover Otizi app because right now, the process is too technical”.</i></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -445,48 +449,17 @@ const otizi = () => {
                                             </div>
                                         </div>
                                         <div className="col-12 mt-2 mb-2">
-                                            {/* Journey map */}
+
                                             <div className="row justify-content-between align-item-center details  my-3">
                                                 <div className="col-sm-12 col-md-3">
                                                     <p> This prototype can be used with users for testing purposes before adding all graphics. a consistent layout grid was established to organize the UI elements and keep everything perfectly align across the screens.  </p>
                                                 </div>
                                                 {/* carousel */}
                                                 <div className="col-xs-12 col-md-9">
-                                                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                                        <div class="carousel-indicators">
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                                                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                                    <div className="row">
+                                                        <div className="col">
+                                                            <img src={Midfi} class="img-fluid photos" alt="midfi" />
                                                         </div>
-                                                        <div class="carousel-inner">
-                                                            {midfis.map((midfi, index) => (
-
-                                                                <div class={midfi.class} data-bs-interval="1500">
-                                                                    <img src={midfi.image} class="d-block w-100" alt="..." />
-                                                                    {/* <div class="carousel-caption  d-block competative-heading">
-                                                        <h4 className="">{midfi.title}</h4>
-                                                        <p>Viework’s Product Tour, Created with UserGuiding.</p>
-                                                    </div> */}
-                                                                </div>
-
-                                                            ))}
-                                                        </div>
-                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                            <span class="visually-hidden">Previous</span>
-                                                        </button>
-                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                            <span class="visually-hidden">Next</span>
-                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -567,8 +540,15 @@ const otizi = () => {
                                                     <h3 className="sub-heading-diet">FINAL DESIGN</h3>
                                                     {/* <p> This prototype can be used with users for testing purposes before adding all graphics. a consistent layout grid was established to organize the UI elements and keep everything perfectly align across the screens.  </p> */}
                                                 </div>
-                                                {/* carousel */}
                                                 <div className="col-xs-12 col-md-9">
+                                                    <div className="row">
+                                                        <div className="col">
+                                                            <img src={Hifi} class="img-fluid photos" alt="midfi" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {/* carousel */}
+                                                {/* <div className="col-xs-12 col-md-9">
                                                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                                         <div class="carousel-indicators">
                                                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -588,10 +568,7 @@ const otizi = () => {
 
                                                                 <div class={hifi.class} data-bs-interval="1500">
                                                                     <img src={hifi.image} class="d-block w-100" alt="..." />
-                                                                    {/* <div class="carousel-caption  d-block competative-heading">
-                                                        <h4 className="">{midfi.title}</h4>
-                                                        <p>Viework’s Product Tour, Created with UserGuiding.</p>
-                                                    </div> */}
+                                                                    
                                                                 </div>
 
                                                             ))}
@@ -605,7 +582,7 @@ const otizi = () => {
                                                             <span class="visually-hidden">Next</span>
                                                         </button>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
