@@ -13,8 +13,6 @@ import {
     competators,
     onboardings,
     landings,
-    midfi_sites,
-    midfi_onboardings,
     styles,
     hifidelity,
     hifidelity_cta
@@ -105,7 +103,9 @@ const Diet_n_Nutrition = () => {
                                             <div className='row justify-content-between'>
                                                 <div className='col-12'>
                                                     <h4 className="sub-heading ">Goal</h4>
-                                                    <p>Create an MVP (Minimum Viable Product) for a wellness app and “pretend” to compete at the Daily Health Conference, starting with conducting user research to understand people’s behaviors, based on the various topics, and ending with creating a prototype for a tool that will motivate them to take action. </p>
+                                                    <p>“The Daily Health Conference wants designers to rethink how people can adopt and commit to a health-improving routine".</p>
+                                                    <p>Create an <b>MVP (Minimum Viable Product) app. </b>Challenge accepted.</p>
+                                                    <p><b>We worked on a diet & nutrition app </b>helping users follow a plan and upload/pick up different meals shared by the community.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -391,7 +391,7 @@ const Diet_n_Nutrition = () => {
                                                     <div className='row justify-content-between'>
                                                         <div className='col-12'>
                                                             <h4 className="sub-heading ">Problem Statement</h4>
-                                                            <p>“How can the user find a way to prepare meals fast, because food preparation is long and tiring, especially after a long day at work?”</p>
+                                                            <p><b><i>“How can the user find a way to prepare meals fast, because food preparation is long and tiring, especially after a long day at work?”</i></b></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -488,7 +488,9 @@ const Diet_n_Nutrition = () => {
                                             <div className="row justify-content-between align-items-center mt-4 mb-4">
                                                 <div className='col-sm-12 col-lg-6'>
                                                     <h4 className="sub-heading ">User Flow</h4>
-                                                    <p>The user flow diagram identified key actions within the app and screens to focus on. </p>
+                                                    <p>We did a 'Worst Idea' exercise and brainstormed to find our main app feature. The idea was to empathize on this Community based plateform & after recipes to help user tailor their daily meal plan, </p>
+                                                    <p>We also added features like progress, daily intake, weight tracking to offer a global experience.</p>
+                                                    {/* <p>The user flow diagram identified key actions within the app and screens to focus on. </p> */}
                                                 </div>
                                                 <div className='col-sx-12 col-lg-6'>
                                                     <img src={User_Flow} className="img-fluid" alt="chart" />
@@ -613,11 +615,11 @@ const Diet_n_Nutrition = () => {
                                             </div>
                                         </div>
                                         {/* mid-fi for onboarding*/}
-                                        
+
                                         <div className='col-sm-12 col-lg-12'>
                                             <img src={Midfi} className="img-fluid" alt="chart" />
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>

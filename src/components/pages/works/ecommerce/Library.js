@@ -35,15 +35,7 @@ import Page3 from "../../../../assets/projects/e-commerce/concept-testing/page3.
 import Page4 from "../../../../assets/projects/e-commerce/concept-testing/page4.png";
 
 
-// mid-fi
-import Page1_mid from "../../../../assets/projects/e-commerce/mid-fi/page1.png";
-import Page2_mid from "../../../../assets/projects/e-commerce/mid-fi/page2.png"
-import Page3_mid from "../../../../assets/projects/e-commerce/mid-fi/page3.png";
-import Page4_mid from "../../../../assets/projects/e-commerce/mid-fi/page4.png"
-import Page5_mid from "../../../../assets/projects/e-commerce/mid-fi/page5.png";
-import Page6_mid from "../../../../assets/projects/e-commerce/mid-fi/page6.png"
-import Page7_mid from "../../../../assets/projects/e-commerce/mid-fi/page7.png";
-import Page8_mid from "../../../../assets/projects/e-commerce/mid-fi/page8.png"
+
 
 // hi-fi
 import Page1_hifi from "../../../../assets/projects/e-commerce/hi-fi/page1_hi-fi.png";
@@ -82,32 +74,6 @@ export const hifi = [
     },
 ];
 
-export const midfi = [
-    {
-        image:Page1_mid
-    },
-    {
-        image:Page2_mid
-    },
-    {
-        image:Page3_mid
-    },
-    {
-        image:Page4_mid
-    },
-    {
-        image:Page5_mid
-    },
-    {
-        image:Page6_mid
-    },
-    {
-        image:Page7_mid
-    },
-    {
-        image:Page8_mid
-    },
-];
 
 export const concepttesting = [
     {
@@ -193,7 +159,7 @@ export const icons_ideation = [
         image:Add_to_wish_list,
     },
     {
-        title:"click n collect",
+        title:"click & collect",
         image:Click_n_collect,
     },
 ];

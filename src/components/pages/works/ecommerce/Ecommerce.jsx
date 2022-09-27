@@ -8,7 +8,6 @@ import {
   concepttesting,
   icons_ideation,
   users_story,
-  midfi,
   hifi,
 } from "./Library";
 
@@ -104,7 +103,7 @@ const ECommerce = () => {
                             <div className='col-12'>
                               <h4 className="sub-heading ">Objective</h4>
                               <p>Our goal was to provide a prototype of her future e-commerce platform which meets her business goals and reflects her personality. This solution would help her share her passion and sell her second-hand clothing on a wider level.</p>
-                              <p>It was to elemlinate any confusion the shopper might have during add to card and a transaction, aiming to making each steps as clear as possible, given how much information is presented to the user.</p>
+                              <p>It was to eliminate any confusion the shopper might have during add to card and a transaction, aiming to making each steps as clear as possible, given how much information is presented to the user.</p>
                             </div>
                           </div>
                         </div>
@@ -360,7 +359,7 @@ const ECommerce = () => {
                           <div className='row justify-content-between'>
                             <div className='col-12'>
                               <h4 className="sub-heading ">Users</h4>
-                              <p>“The environmentally conscious consumer wants to shop second-hand clothing for a unique style but needs to be able to do so online because of the lack of time and accessibility to go into the store in person”.</p>
+                              <p><b><i>“The environmentally conscious consumer wants to shop second-hand clothing for a unique style but needs to be able to do so online because of the lack of time and accessibility to go into the store in person”.</i></b></p>
                             </div>
                           </div>
                         </div>
@@ -368,7 +367,7 @@ const ECommerce = () => {
                           <div className='row justify-content-between'>
                             <div className='col-12'>
                               <h4 className="sub-heading ">Business</h4>
-                              <p>“The Bottega Concept Store wants to move into the digital world to be more up to date with today’s ways and offer its customers more possibilities to shop and enjoy the store”.</p>
+                              <p><b><i>“The Bottega Concept Store wants to move into the digital world to be more up to date with today’s ways and offer its customers more possibilities to shop and enjoy the store”.</i></b></p>
                             </div>
                           </div>
                         </div>
@@ -402,7 +401,7 @@ const ECommerce = () => {
 
                       </div>
                       <div className="row row-cols-3 row-cols-md-6 justify-content-center ">
-                        {icons_ideation.map((idea, index) => (
+                          {icons_ideation.map((idea, index) => (
                           <div className="col ">
                             <div className="card align-items-center pt-3 mt-1">
                               <img src={idea.image} className="card-img-icon img-fluid" alt="..." />

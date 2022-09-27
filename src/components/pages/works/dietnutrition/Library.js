@@ -18,27 +18,6 @@ import Onboarding2 from "../../../../assets/projects/diet&nutrition/usability-te
 import Landing1 from "../../../../assets/projects/diet&nutrition/usability-testing/landing1.png";
 import Landing2 from "../../../../assets/projects/diet&nutrition/usability-testing/landing2.png";
 
-// mid-fi
-//onboarding
-import Onboarding_page1 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage1.png";
-import Onboarding_page2 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage2.png";
-import Onboarding_page3 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage3.png";
-import Onboarding_page4 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage4.png";
-import Onboarding_page5 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage5.png";
-import Onboarding_page6 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage6.png";
-import Onboarding_page7 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage7.png";
-import Onboarding_page8 from "../../../../assets/projects/diet&nutrition/midfi/onboarding/onboardingPage8.png";
-//site
-import site_page1 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage1.png";
-import site_page2 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage2.png";
-import site_page3 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage3.png";
-import site_page4 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage4.png";
-import site_page5 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage5.png";
-import site_page6 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage6.png";
-import site_page7 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage7.png";
-import site_page8 from "../../../../assets/projects/diet&nutrition/midfi/site/sitePage8.png";
-
-
 //style guide
 import Typography_styles from "../../../../assets/projects/diet&nutrition/styleguide/typography.png";
 import Colors_styles from "../../../../assets/projects/diet&nutrition/styleguide/colors.png";
@@ -166,75 +145,6 @@ export const styles = [
     },
 ];
 
-export const midfi_sites = [
-    {
-        title: "Home / Landing page",
-        image: site_page1
-    },
-    {
-        title: "Favorites page",
-        image: site_page2
-    },
-    {
-        title: "My plan page",
-        image: site_page3
-    },
-    {
-        title: "My breakfast plan",
-        image: site_page4
-    },
-    {
-        title: "Product detail",
-        image: site_page5
-    },
-    {
-        title: "My dashbaord page",
-        image: site_page6
-    },
-    {
-        title: "Account setting",
-        image: site_page7
-    },
-    {
-        title: "Upload meal page",
-        image: site_page8
-    },
-];
-
-export const midfi_onboardings = [
-    {
-        title: "Select gender",
-        image: Onboarding_page1
-    },
-    {
-        title: "Select your DoB",
-        image: Onboarding_page2
-    },
-    {
-        title: "Your current height",
-        image: Onboarding_page3
-    },
-    {
-        title: "Current & goal weight",
-        image: Onboarding_page4
-    },
-    {
-        title: "Your Activity level",
-        image: Onboarding_page5
-    },
-    {
-        title: "Select your goal",
-        image: Onboarding_page6
-    },
-    {
-        title: "Select your duration",
-        image: Onboarding_page7
-    },
-    {
-        title: "Choose your foods",
-        image: Onboarding_page8
-    },
-];
 
 export const onboardings = [
     {
